@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem Solving", "Problem Solving", "{2EE95A25-5B5C-4AF1-B897-8006F45A2684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migratory Birds", "Migratory Birds\Migratory Birds.csproj", "{099C8E82-56CD-45DC-928D-C580ABA5A702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migratory Birds", "Migratory Birds\Migratory Birds.csproj", "{099C8E82-56CD-45DC-928D-C580ABA5A702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfTheProgrammer", "DayOfTheProgrammer\DayOfTheProgrammer.csproj", "{4B43068E-5067-4181-BE6D-513A996DD480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B43068E-5067-4181-BE6D-513A996DD480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B43068E-5067-4181-BE6D-513A996DD480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B43068E-5067-4181-BE6D-513A996DD480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B43068E-5067-4181-BE6D-513A996DD480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{099C8E82-56CD-45DC-928D-C580ABA5A702} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 		{7BCF0F87-7EF4-45B9-BA31-8D153B3D1D99} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
+		{4B43068E-5067-4181-BE6D-513A996DD480} = {2EE95A25-5B5C-4AF1-B897-8006F45A2684}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {040D8A9A-2D49-479F-82C1-BDE3840C3FFD}
