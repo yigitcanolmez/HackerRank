@@ -1,0 +1,13 @@
+  public static int designerPdfViewer(List<int> h, string word)
+    {
+            int max = 0;
+            int current = 0;
+            
+        foreach(char letter in word)
+        {
+            current = h[((int)letter)-97];
+            if(current> max)
+                max = current;
+        }
+       return max * word.Length;   
+        }
