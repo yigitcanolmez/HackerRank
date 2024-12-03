@@ -1,0 +1,6 @@
+    var attendance =  a.Where( x=> x <= 0).ToList();
+       
+       if(attendance.Count < k)
+       return "YES";
+       else 
+       return "NO";
